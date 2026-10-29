@@ -1,0 +1,60 @@
+
+<html>
+<head>
+    <title>Vegetable Sales</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f7fb;
+        }
+        h2 {
+            text-align: center;
+            color: #1F3864;
+        }
+
+
+        form {
+            width: 300px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid #bbb;
+        }
+        input {
+            width: 100%;
+            padding: 7px;
+            margin: 8px 0 12px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background: #1F3864;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Vegetable Vendor Daily Sales</h2>
+
+<form action="result.jsp" method="post">
+    Vegetable
+    <input type="text" name="vegetable" required>
+
+    Kg_Sold
+    <input type="number" name="kg"
+           step="any" min="0.01" required>
+
+    rate per Kg inRs
+    <input type="number" name="rate"
+           step="any" min="0" required>
+
+    date
+    <input type="date" name="saledate" required>
+
+    <input type="submit" value="Save">
+</form>
+
+</body>
+</html>
