@@ -1,4 +1,5 @@
-MCA-12
-NAME:Sakshi pradip Bhosale
-TASK NUMBER -12: VEGETABLE VENDOR DAILY SALES
-PROJECT DESCRIPTION: THIS PROJECT IS USED TO RECORD DAILY VEGETABLES SALES USING JSP AND MYSQL. IT CALCULATES THE AMOUNT BY MULTIPLYING KG SOLD WITH THE RATE PER KG.AND ALSO DISPLAY RECORDS
+Name: Bhosale Sakshi Pradip.[MCA12]
+# Vegetable Vendor Daily Sales
+This project is used to record daily vegetable sales using JSP and MySQL.
+It calculates the amount by multiplying kg sold with the rate per kg.
+It also displays all sales records and the total kg sold.
